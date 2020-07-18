@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<IrisConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ViewPorts>
+    <ViewPort>
+    <ViewPort>
+      <Name>AMPCD Top</Name>
+      <Description>AMPCD</Description>
+      <Host>helios02.home</Host>
+      <Port>12001</Port>
+      <ScreenCaptureX>6000</ScreenCaptureX>
+      <ScreenCaptureY>800</ScreenCaptureY>    
+      <SizeX>640</SizeX>
+      <SizeY>320</SizeY>
+      <ScreenPositionX>790</ScreenPositionX>
+      <ScreenPositionY>694</ScreenPositionY>
+    </ViewPort>
+    <ViewPort>
+      <Name>AMPCD Bottom</Name>
+      <Description>AMPCD</Description>
+      <Host>helios02.home</Host>
+      <Port>12002</Port>
+      <ScreenCaptureX>6000</ScreenCaptureX>
+      <ScreenCaptureY>1120</ScreenCaptureY>    
+      <SizeX>640</SizeX>
+      <SizeY>320</SizeY>
+      <ScreenPositionX>790</ScreenPositionX>
+      <ScreenPositionY>694</ScreenPositionY>
+    </ViewPort>
+  </ViewPorts>
+  <PollingInterval>20</PollingInterval>
+</IrisConfig>
