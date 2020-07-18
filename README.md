@@ -1,7 +1,7 @@
 # F/A-18C Hornet AMPCD Project
 ### Introduction
 I wanted to achieve a AMPCD (MFD) for the DCS F/A-18C hornet which made use of the [Thrustmaster Cougar MFD](http://www.thrustmaster.com/products/mfd-cougar-pack).  This is a description of the path I took, and the rationale for that route.
-
+![F/A-18C AMPCD](images/AMPCD.png)
 ### Design Choices
 I have seen a few android solutions to MFDs, and there was a lot of merit to this platform based on the availability of second hand android tablets.  I think that the ideal size of tablet to fit the internal space of the cougar MFD is probably about 8 inches, and these are readily available, but this would probably have led me to use the android tablet with some USB display emulation software and
 and I wanted to have a stand alone device if at all possible.  In the end, I decided to base the project on a windows tablet so that I could make use of the flexibility of [Helios](https://github.com/HeliosVirtualCockpit/Helios) which is an active open source virtual cockpit system which supports DCS.
@@ -9,9 +9,8 @@ This approach also had the benefit that I could attach the Cougar MFD directly t
 Linx 10 did not come with keyboard or power supply, I thought that this was a reasonable starting place.
 ### Parts
 * 1 x Thrustmaster Cougar MFD
-* 1 x 8in Micro-USB to Micro-USB OTG Cable (eg StarTech UUUSBOTG8IN)
-		* alternative
-* 1 x Micro USB OTG adapter
+* 1 x 8in Micro-USB to Micro-USB OTG Cable (eg StarTech UUUSBOTG8IN)		
+* alternative 1 x Micro USB OTG adapter
 * 1 x Linx 10 windows tablet (screen resolution 1280 x 800)
 * 3D printed brackets to hold the MFD onto the tablet
 * 1 x Latest version of Helios Virtual Cockpit (in my case the 32 bit version) and install IRIS client
