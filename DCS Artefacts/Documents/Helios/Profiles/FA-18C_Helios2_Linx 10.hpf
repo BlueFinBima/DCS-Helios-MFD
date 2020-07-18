@@ -1,0 +1,883 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HeliosProfile>
+  <Version>3</Version>
+  <Monitors>
+    <Monitor>
+      <Location>0,0</Location>
+      <Size>800,1280</Size>
+      <Hidden>False</Hidden>
+      <Orientation>DMDO_DEFAULT</Orientation>
+      <AlwaysOnTop>True</AlwaysOnTop>
+      <Background />
+      <Children>
+        <Control TypeIdentifier="Helios.Panel" Name="Panel Linx Portrait" SnapTarget="True" Locked="False">
+          <Location>0,0</Location>
+          <Size>800,1280</Size>
+          <Hidden>False</Hidden>
+          <Background />
+          <Children>
+            <Control TypeIdentifier="Helios.Panel" Name="Panel Top Background" SnapTarget="True" Locked="False">
+              <Location>0,0</Location>
+              <Size>800,600</Size>
+              <Hidden>False</Hidden>
+              <Background>
+                <Image>FA-18C\Linx_Background 1.png</Image>
+                <ImageAlignment>Stretched</ImageAlignment>
+              </Background>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Panel" Name="Panel Video Controls" SnapTarget="True" Locked="False">
+              <Location>0,90</Location>
+              <Size>798,426</Size>
+              <Hidden>False</Hidden>
+              <Background />
+              <Children>
+                <Control TypeIdentifier="Helios.Panel" Name="Panel Video Background" SnapTarget="True" Locked="False">
+                  <Location>9,0</Location>
+                  <Size>788,426</Size>
+                  <Hidden>False</Hidden>
+                  <Background>
+                    <Image>FA-18C\Video Controls.png</Image>
+                    <ImageAlignment>Stretched</ImageAlignment>
+                  </Background>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.Potentiometer" Name="Black Level Knob" SnapTarget="True" Locked="False">
+                  <Location>437,69</Location>
+                  <Size>69,69</Size>
+                  <Hidden>False</Hidden>
+                  <KnobImage>FA-18C\rotator_007.png</KnobImage>
+                  <InitialValue>0</InitialValue>
+                  <StepValue>0.1</StepValue>
+                  <MaxValue>1</MaxValue>
+                  <MinValue>0</MinValue>
+                  <InitialRotation>210.064719548623</InitialRotation>
+                  <RotationTravel>296.883504812479</RotationTravel>
+                  <ClickType>
+                    <Type>Swipe</Type>
+                    <Sensitivity>0</Sensitivity>
+                  </ClickType>
+                  <MouseWheel>True</MouseWheel>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.Potentiometer" Name="AOA Brightness Knob" SnapTarget="True" Locked="False">
+                  <Location>236,189</Location>
+                  <Size>69,69</Size>
+                  <Hidden>False</Hidden>
+                  <KnobImage>FA-18C\rotator_007.png</KnobImage>
+                  <InitialValue>0</InitialValue>
+                  <StepValue>0.1</StepValue>
+                  <MaxValue>1</MaxValue>
+                  <MinValue>0</MinValue>
+                  <InitialRotation>210.064719548623</InitialRotation>
+                  <RotationTravel>305.844673083306</RotationTravel>
+                  <ClickType>
+                    <Type>Swipe</Type>
+                    <Sensitivity>0</Sensitivity>
+                  </ClickType>
+                  <MouseWheel>True</MouseWheel>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.ThreeWayToggleSwitch" Name="Rej Switch" SnapTarget="True" Locked="False">
+                  <Location>64,39</Location>
+                  <Size>73,154</Size>
+                  <Hidden>False</Hidden>
+                  <SwitchType>OnOnOn</SwitchType>
+                  <Orientation>Vertical</Orientation>
+                  <ClickType>Swipe</ClickType>
+                  <PositionOneImage>FA-18C\white_btn_UP.png</PositionOneImage>
+                  <PositionTwoImage>FA-18C\white_btn_MID.png</PositionTwoImage>
+                  <PositionThreeImage>FA-18C\white_btn_DOWN.png</PositionThreeImage>
+                  <DefaultPosition>Two</DefaultPosition>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Altimeter Mode Switch" SnapTarget="True" Locked="False">
+                  <Location>351,159</Location>
+                  <Size>73,154</Size>
+                  <Hidden>False</Hidden>
+                  <SwitchType>OnOn</SwitchType>
+                  <Orientation>Vertical</Orientation>
+                  <ClickType>Swipe</ClickType>
+                  <PositionOneImage>FA-18C\white_btn_UP.png</PositionOneImage>
+                  <PositionTwoImage>FA-18C\white_btn_DOWN.png</PositionTwoImage>
+                  <DefaultPosition>Two</DefaultPosition>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.ThreeWayToggleSwitch" Name="Video Switch" SnapTarget="True" Locked="False">
+                  <Location>552,39</Location>
+                  <Size>73,154</Size>
+                  <Hidden>False</Hidden>
+                  <SwitchType>OnOnOn</SwitchType>
+                  <Orientation>Vertical</Orientation>
+                  <ClickType>Swipe</ClickType>
+                  <PositionOneImage>FA-18C\white_btn_UP.png</PositionOneImage>
+                  <PositionTwoImage>FA-18C\white_btn_MID.png</PositionTwoImage>
+                  <PositionThreeImage>FA-18C\white_btn_DOWN.png</PositionThreeImage>
+                  <DefaultPosition>Three</DefaultPosition>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Alt Switch" SnapTarget="True" Locked="False">
+                  <Location>312,39</Location>
+                  <Size>73,154</Size>
+                  <Hidden>False</Hidden>
+                  <SwitchType>OnOn</SwitchType>
+                  <Orientation>Vertical</Orientation>
+                  <ClickType>Swipe</ClickType>
+                  <PositionOneImage>FA-18C\white_btn_UP.png</PositionOneImage>
+                  <PositionTwoImage>FA-18C\white_btn_DOWN.png</PositionTwoImage>
+                  <DefaultPosition>Two</DefaultPosition>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.ThreeWayToggleSwitch" Name="ATT Switch" SnapTarget="True" Locked="False">
+                  <Location>474,161</Location>
+                  <Size>73,154</Size>
+                  <Hidden>False</Hidden>
+                  <SwitchType>OnOnOn</SwitchType>
+                  <Orientation>Vertical</Orientation>
+                  <ClickType>Swipe</ClickType>
+                  <PositionOneImage>FA-18C\white_btn_UP.png</PositionOneImage>
+                  <PositionTwoImage>FA-18C\white_btn_MID.png</PositionTwoImage>
+                  <PositionThreeImage>FA-18C\white_btn_DOWN.png</PositionThreeImage>
+                  <DefaultPosition>Three</DefaultPosition>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.Potentiometer" Name="HUD Brightness" SnapTarget="True" Locked="False">
+                  <Location>183,51</Location>
+                  <Size>83,83</Size>
+                  <Hidden>False</Hidden>
+                  <KnobImage>FA-18C\rotator_012.png</KnobImage>
+                  <InitialValue>0</InitialValue>
+                  <StepValue>0.1</StepValue>
+                  <MaxValue>1</MaxValue>
+                  <MinValue>0</MinValue>
+                  <InitialRotation>204.090607368072</InitialRotation>
+                  <RotationTravel>311.818785263856</RotationTravel>
+                  <ClickType>
+                    <Type>Swipe</Type>
+                    <Sensitivity>0</Sensitivity>
+                  </ClickType>
+                  <MouseWheel>True</MouseWheel>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.Potentiometer" Name="Balance Knob" SnapTarget="True" Locked="False">
+                  <Location>677,51</Location>
+                  <Size>83,83</Size>
+                  <Hidden>False</Hidden>
+                  <KnobImage>FA-18C\rotator_012.png</KnobImage>
+                  <InitialValue>0</InitialValue>
+                  <StepValue>0.1</StepValue>
+                  <MaxValue>1</MaxValue>
+                  <MinValue>0</MinValue>
+                  <InitialRotation>204.090607368072</InitialRotation>
+                  <RotationTravel>314.805841354132</RotationTravel>
+                  <ClickType>
+                    <Type>Swipe</Type>
+                    <Sensitivity>0</Sensitivity>
+                  </ClickType>
+                  <MouseWheel>True</MouseWheel>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.ThreeWayToggleSwitch" Name="Toggle AMPCD Course" SnapTarget="True" Locked="False">
+                  <Location>680,362</Location>
+                  <Size>58,116</Size>
+                  <Rotation>CW</Rotation>
+                  <Hidden>False</Hidden>
+                  <SwitchType>MomOnMom</SwitchType>
+                  <Orientation>Vertical</Orientation>
+                  <ClickType>Swipe</ClickType>
+                  <PositionOneImage>{Helios}/Images/Toggles/orange-round-up.png</PositionOneImage>
+                  <PositionTwoImage>{Helios}/Images/Toggles/orange-round-norm.png</PositionTwoImage>
+                  <PositionThreeImage>{Helios}/Images/Toggles/orange-round-down.png</PositionThreeImage>
+                  <DefaultPosition>Two</DefaultPosition>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.Potentiometer" Name="Knob AMPCD Brightness" SnapTarget="True" Locked="False">
+                  <Location>357,342</Location>
+                  <Size>83,83</Size>
+                  <Hidden>False</Hidden>
+                  <KnobImage>FA-18C\rotator_012.png</KnobImage>
+                  <InitialValue>0</InitialValue>
+                  <StepValue>0.1</StepValue>
+                  <MaxValue>1</MaxValue>
+                  <MinValue>0</MinValue>
+                  <InitialRotation>204.090607368072</InitialRotation>
+                  <RotationTravel>314.805841354132</RotationTravel>
+                  <ClickType>
+                    <Type>Swipe</Type>
+                    <Sensitivity>0</Sensitivity>
+                  </ClickType>
+                  <MouseWheel>True</MouseWheel>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.ThreeWayToggleSwitch" Name="Toggle AMPCD Heading" SnapTarget="True" Locked="False">
+                  <Location>0,362</Location>
+                  <Size>58,116</Size>
+                  <Rotation>CW</Rotation>
+                  <Hidden>False</Hidden>
+                  <SwitchType>MomOnMom</SwitchType>
+                  <Orientation>Vertical</Orientation>
+                  <ClickType>Swipe</ClickType>
+                  <PositionOneImage>{Helios}/Images/Toggles/orange-round-up.png</PositionOneImage>
+                  <PositionTwoImage>{Helios}/Images/Toggles/orange-round-norm.png</PositionTwoImage>
+                  <PositionThreeImage>{Helios}/Images/Toggles/orange-round-down.png</PositionThreeImage>
+                  <DefaultPosition>Two</DefaultPosition>
+                  <Children />
+                </Control>
+              </Children>
+            </Control>
+            <Control TypeIdentifier="Helios.Panel" Name="AMPCD Cutout" SnapTarget="True" Locked="True">
+              <Location>80,640</Location>
+              <Size>640,640</Size>
+              <Hidden>False</Hidden>
+              <Background />
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="Control Centre Button" SnapTarget="True" Locked="False">
+              <Location>0,249</Location>
+              <Size>80,118</Size>
+              <Hidden>False</Hidden>
+              <Type>Momentary</Type>
+              <Image />
+              <PushedImage />
+              <Text>
+                <Color>#FF696969</Color>
+                <Font>
+                  <FontFamily>MS 33558</FontFamily>
+                  <FontStyle>Normal</FontStyle>
+                  <FontWeight>Normal</FontWeight>
+                  <FontSize>20</FontSize>
+                  <HorizontalAlignment>Center</HorizontalAlignment>
+                  <VerticalAlignment>Center</VerticalAlignment>
+                  <Padding>
+                    <Left>0</Left>
+                    <Top>0</Top>
+                    <Right>0</Right>
+                    <Bottom>0</Bottom>
+                  </Padding>
+                </Font>
+                <Text>CC</Text>
+              </Text>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.Indicator" Name="Green Light" SnapTarget="True" Locked="False">
+              <OnImage>{Helios}/Images/Indicators/green-light-on.png</OnImage>
+              <OffImage>{Helios}/Images/Indicators/green-light-off.png</OffImage>
+              <Font>
+                <FontFamily>Franklin Gothi c</FontFamily>
+                <FontStyle>Normal</FontStyle>
+                <FontWeight>Normal</FontWeight>
+                <FontSize>7.11111111111111</FontSize>
+                <HorizontalAlignment>Center</HorizontalAlignment>
+                <VerticalAlignment>Center</VerticalAlignment>
+                <Padding>
+                  <Left>0</Left>
+                  <Top>0</Top>
+                  <Right>0</Right>
+                  <Bottom>0</Bottom>
+                </Padding>
+              </Font>
+              <Text />
+              <OnTextColor>#FFB3A229</OnTextColor>
+              <OffTextColor>#FF1C1C1C</OffTextColor>
+              <Location>0,0</Location>
+              <Size>29,32</Size>
+              <Hidden>False</Hidden>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Panel" Name="Empty Panel" SnapTarget="True" Locked="False">
+              <Location>0,640</Location>
+              <Size>80,640</Size>
+              <Hidden>False</Hidden>
+              <Background>
+                <Color>#FF1E1E1E</Color>
+              </Background>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Panel" Name="Empty Panel 1" SnapTarget="True" Locked="False">
+              <Location>720,640</Location>
+              <Size>80,640</Size>
+              <Hidden>False</Hidden>
+              <Background>
+                <Color>#FF1E1E1E</Color>
+              </Background>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Panel" Name="Empty Panel2" SnapTarget="True" Locked="False">
+              <Location>0,600</Location>
+              <Size>800,40</Size>
+              <Hidden>False</Hidden>
+              <Background>
+                <Color>#FF1E1E1E</Color>
+              </Background>
+              <Children />
+            </Control>
+          </Children>
+        </Control>
+      </Children>
+    </Monitor>
+  </Monitors>
+  <Interfaces>
+    <Interface TypeIdentifier="Helios.Base.ProfileInterface" Name="Profile" />
+    <Interface TypeIdentifier="Helios.Base.Keyboard" Name="Keyboard">
+      <KeyDelay>30</KeyDelay>
+    </Interface>
+    <Interface TypeIdentifier="Helios.FA18C" Name="DCS F/A-18C" />
+    <Interface TypeIdentifier="Helios.Base.DirectXController" Name="F16 MFD 3">
+      <Controller>
+        <Name>F16 MFD 3</Name>
+        <GUID>d4359160-a036-11ea-8010-444553540000</GUID>
+        <Functions>
+          <Function>
+            <Type>Button</Type>
+            <Number>0</Number>
+          </Function>
+          <Function>
+            <Type>Button</Type>
+            <Number>1</Number>
+          </Function>
+          <Function>
+            <Type>Button</Type>
+            <Number>2</Number>
+          </Function>
+          <Function>
+            <Type>Button</Type>
+            <Number>3</Number>
+          </Function>
+          <Function>
+            <Type>Button</Type>
+            <Number>4</Number>
+          </Function>
+          <Function>
+            <Type>Button</Type>
+            <Number>5</Number>
+          </Function>
+          <Function>
+            <Type>Button</Type>
+            <Number>6</Number>
+          </Function>
+          <Function>
+            <Type>Button</Type>
+            <Number>7</Number>
+          </Function>
+          <Function>
+            <Type>Button</Type>
+            <Number>8</Number>
+          </Function>
+          <Function>
+            <Type>Button</Type>
+            <Number>9</Number>
+          </Function>
+          <Function>
+            <Type>Button</Type>
+            <Number>10</Number>
+          </Function>
+          <Function>
+            <Type>Button</Type>
+            <Number>11</Number>
+          </Function>
+          <Function>
+            <Type>Button</Type>
+            <Number>12</Number>
+          </Function>
+          <Function>
+            <Type>Button</Type>
+            <Number>13</Number>
+          </Function>
+          <Function>
+            <Type>Button</Type>
+            <Number>14</Number>
+          </Function>
+          <Function>
+            <Type>Button</Type>
+            <Number>15</Number>
+          </Function>
+          <Function>
+            <Type>Button</Type>
+            <Number>16</Number>
+          </Function>
+          <Function>
+            <Type>Button</Type>
+            <Number>17</Number>
+          </Function>
+          <Function>
+            <Type>Button</Type>
+            <Number>18</Number>
+          </Function>
+          <Function>
+            <Type>Button</Type>
+            <Number>19</Number>
+          </Function>
+          <Function>
+            <Type>Button</Type>
+            <Number>20</Number>
+          </Function>
+          <Function>
+            <Type>Button</Type>
+            <Number>21</Number>
+          </Function>
+          <Function>
+            <Type>Button</Type>
+            <Number>22</Number>
+          </Function>
+          <Function>
+            <Type>Button</Type>
+            <Number>23</Number>
+          </Function>
+          <Function>
+            <Type>Button</Type>
+            <Number>24</Number>
+          </Function>
+          <Function>
+            <Type>Button</Type>
+            <Number>25</Number>
+          </Function>
+          <Function>
+            <Type>Button</Type>
+            <Number>26</Number>
+          </Function>
+          <Function>
+            <Type>Button</Type>
+            <Number>27</Number>
+          </Function>
+        </Functions>
+      </Controller>
+    </Interface>
+  </Interfaces>
+  <Bindings>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Base.ProfileInterface;Profile" Name="Started" />
+      <Action Target="Interface;;Helios.Base.ProfileInterface;Profile" Name="launch application" />
+      <StaticValue>%programfiles%\Helios\Iris-Client.exe %userprofile%\documents\helios\profiles\Iris\Hornet_AMPCD.xml</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Base.ProfileInterface;Profile" Name="Stopped" />
+      <Action Target="Interface;;Helios.Base.ProfileInterface;Profile" Name="kill application" />
+      <StaticValue>Iris-Client</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.FA18C;DCS F/A-18C" Name="Connected" />
+      <Action Target="Interface;;Helios.Base.ProfileInterface;Profile" Name="launch application" />
+      <StaticValue>c:\program files\Helios\iris-client.exe</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.FA18C;DCS F/A-18C" Name="Disconnected" />
+      <Action Target="Interface;;Helios.Base.ProfileInterface;Profile" Name="launch application" />
+      <StaticValue>C:\Windows\System32\taskkill.exe /FI "IMAGENAME eq Iris-client.exe"</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.FA18C;DCS F/A-18C" Name="Connected" />
+      <Action Target="Visual;Monitor 1.Panel Linx Portrait.Green Light;Helios.Base.Indicator;Green Light" Name="set.indicator" />
+      <StaticValue>true</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.FA18C;DCS F/A-18C" Name="Disconnected" />
+      <Action Target="Visual;Monitor 1.Panel Linx Portrait.Green Light;Helios.Base.Indicator;Green Light" Name="set.indicator" />
+      <StaticValue>false</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.FA18C;DCS F/A-18C" Name="AMPCD.Heading Set Switch.changed" />
+      <Action Target="Visual;Monitor 1.Panel Linx Portrait.Panel Video Controls.Toggle AMPCD Heading;Helios.Base.ThreeWayToggleSwitch;Toggle AMPCD Heading" Name="set.position" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.FA18C;DCS F/A-18C" Name="AMPCD.Course Set Switch.changed" />
+      <Action Target="Visual;Monitor 1.Panel Linx Portrait.Panel Video Controls.Toggle AMPCD Course;Helios.Base.ThreeWayToggleSwitch;Toggle AMPCD Course" Name="set.position" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.FA18C;DCS F/A-18C" Name="Head-Up Display.HUD Symbology Reject Switch.changed" />
+      <Action Target="Visual;Monitor 1.Panel Linx Portrait.Panel Video Controls.Rej Switch;Helios.Base.ThreeWayToggleSwitch;Rej Switch" Name="set.position" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.FA18C;DCS F/A-18C" Name="Head-Up Display.HUD Symbology Brightness Control Knob.changed" />
+      <Action Target="Visual;Monitor 1.Panel Linx Portrait.Panel Video Controls.HUD Brightness;Helios.Base.Potentiometer;HUD Brightness" Name="set.value" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.FA18C;DCS F/A-18C" Name="Head-Up Display.HUD Symbology Brightness Selector Switch.changed" />
+      <Action Target="Visual;Monitor 1.Panel Linx Portrait.Panel Video Controls.Alt Switch;Helios.Base.ToggleSwitch;Alt Switch" Name="set.position" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.FA18C;DCS F/A-18C" Name="Head-Up Display.Black Level Control Knob.changed" />
+      <Action Target="Visual;Monitor 1.Panel Linx Portrait.Panel Video Controls.Black Level Knob;Helios.Base.Potentiometer;Black Level Knob" Name="set.value" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.FA18C;DCS F/A-18C" Name="Head-Up Display.HUD Video Control Switch.changed" />
+      <Action Target="Visual;Monitor 1.Panel Linx Portrait.Panel Video Controls.Video Switch;Helios.Base.ThreeWayToggleSwitch;Video Switch" Name="set.position" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.FA18C;DCS F/A-18C" Name="Head-Up Display.Balance Control Knob.changed" />
+      <Action Target="Visual;Monitor 1.Panel Linx Portrait.Panel Video Controls.Balance Knob;Helios.Base.Potentiometer;Balance Knob" Name="set.value" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.FA18C;DCS F/A-18C" Name="Head-Up Display.AOA Indexer Control Knob.changed" />
+      <Action Target="Visual;Monitor 1.Panel Linx Portrait.Panel Video Controls.AOA Brightness Knob;Helios.Base.Potentiometer;AOA Brightness Knob" Name="set.value" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.FA18C;DCS F/A-18C" Name="Head-Up Display.Altitude Switch.changed" />
+      <Action Target="Visual;Monitor 1.Panel Linx Portrait.Panel Video Controls.Altimeter Mode Switch;Helios.Base.ToggleSwitch;Altimeter Mode Switch" Name="set.position" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.FA18C;DCS F/A-18C" Name="Head-Up Display.Attitude Selector Switch.changed" />
+      <Action Target="Visual;Monitor 1.Panel Linx Portrait.Panel Video Controls.ATT Switch;Helios.Base.ThreeWayToggleSwitch;ATT Switch" Name="set.position" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.FA18C;DCS F/A-18C" Name="AMPCD.AMPCD Off/Brightness Control Knob.changed" />
+      <Action Target="Visual;Monitor 1.Panel Linx Portrait.Panel Video Controls.Knob AMPCD Brightness;Helios.Base.Potentiometer;Knob AMPCD Brightness" Name="set.value" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Base.DirectXController;F16 MFD 3" Name="Button 16.pressed" />
+      <Action Target="Interface;;Helios.FA18C;DCS F/A-18C" Name="AMPCD.push.OSB 01" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Base.DirectXController;F16 MFD 3" Name="Button 16.released" />
+      <Action Target="Interface;;Helios.FA18C;DCS F/A-18C" Name="AMPCD.release.OSB 01" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Base.DirectXController;F16 MFD 3" Name="Button 17.pressed" />
+      <Action Target="Interface;;Helios.FA18C;DCS F/A-18C" Name="AMPCD.push.OSB 02" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Base.DirectXController;F16 MFD 3" Name="Button 17.released" />
+      <Action Target="Interface;;Helios.FA18C;DCS F/A-18C" Name="AMPCD.release.OSB 02" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Base.DirectXController;F16 MFD 3" Name="Button 18.pressed" />
+      <Action Target="Interface;;Helios.FA18C;DCS F/A-18C" Name="AMPCD.push.OSB 03" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Base.DirectXController;F16 MFD 3" Name="Button 18.released" />
+      <Action Target="Interface;;Helios.FA18C;DCS F/A-18C" Name="AMPCD.release.OSB 03" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Base.DirectXController;F16 MFD 3" Name="Button 19.pressed" />
+      <Action Target="Interface;;Helios.FA18C;DCS F/A-18C" Name="AMPCD.push.OSB 04" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Base.DirectXController;F16 MFD 3" Name="Button 19.released" />
+      <Action Target="Interface;;Helios.FA18C;DCS F/A-18C" Name="AMPCD.release.OSB 04" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Base.DirectXController;F16 MFD 3" Name="Button 20.pressed" />
+      <Action Target="Interface;;Helios.FA18C;DCS F/A-18C" Name="AMPCD.push.OSB 05" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Base.DirectXController;F16 MFD 3" Name="Button 20.released" />
+      <Action Target="Interface;;Helios.FA18C;DCS F/A-18C" Name="AMPCD.release.OSB 05" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Base.DirectXController;F16 MFD 3" Name="Button 1.pressed" />
+      <Action Target="Interface;;Helios.FA18C;DCS F/A-18C" Name="AMPCD.push.OSB 06" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Base.DirectXController;F16 MFD 3" Name="Button 1.released" />
+      <Action Target="Interface;;Helios.FA18C;DCS F/A-18C" Name="AMPCD.release.OSB 06" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Base.DirectXController;F16 MFD 3" Name="Button 2.pressed" />
+      <Action Target="Interface;;Helios.FA18C;DCS F/A-18C" Name="AMPCD.push.OSB 07" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Base.DirectXController;F16 MFD 3" Name="Button 2.released" />
+      <Action Target="Interface;;Helios.FA18C;DCS F/A-18C" Name="AMPCD.release.OSB 07" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Base.DirectXController;F16 MFD 3" Name="Button 3.pressed" />
+      <Action Target="Interface;;Helios.FA18C;DCS F/A-18C" Name="AMPCD.push.OSB 08" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Base.DirectXController;F16 MFD 3" Name="Button 3.released" />
+      <Action Target="Interface;;Helios.FA18C;DCS F/A-18C" Name="AMPCD.release.OSB 08" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Base.DirectXController;F16 MFD 3" Name="Button 4.pressed" />
+      <Action Target="Interface;;Helios.FA18C;DCS F/A-18C" Name="AMPCD.push.OSB 09" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Base.DirectXController;F16 MFD 3" Name="Button 4.released" />
+      <Action Target="Interface;;Helios.FA18C;DCS F/A-18C" Name="AMPCD.release.OSB 09" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Base.DirectXController;F16 MFD 3" Name="Button 5.pressed" />
+      <Action Target="Interface;;Helios.FA18C;DCS F/A-18C" Name="AMPCD.push.OSB 10" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Base.DirectXController;F16 MFD 3" Name="Button 5.released" />
+      <Action Target="Interface;;Helios.FA18C;DCS F/A-18C" Name="AMPCD.release.OSB 10" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Base.DirectXController;F16 MFD 3" Name="Button 6.pressed" />
+      <Action Target="Interface;;Helios.FA18C;DCS F/A-18C" Name="AMPCD.push.OSB 11" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Base.DirectXController;F16 MFD 3" Name="Button 6.released" />
+      <Action Target="Interface;;Helios.FA18C;DCS F/A-18C" Name="AMPCD.release.OSB 11" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Base.DirectXController;F16 MFD 3" Name="Button 7.pressed" />
+      <Action Target="Interface;;Helios.FA18C;DCS F/A-18C" Name="AMPCD.push.OSB 12" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Base.DirectXController;F16 MFD 3" Name="Button 7.released" />
+      <Action Target="Interface;;Helios.FA18C;DCS F/A-18C" Name="AMPCD.release.OSB 12" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Base.DirectXController;F16 MFD 3" Name="Button 8.pressed" />
+      <Action Target="Interface;;Helios.FA18C;DCS F/A-18C" Name="AMPCD.push.OSB 13" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Base.DirectXController;F16 MFD 3" Name="Button 8.released" />
+      <Action Target="Interface;;Helios.FA18C;DCS F/A-18C" Name="AMPCD.release.OSB 13" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Base.DirectXController;F16 MFD 3" Name="Button 9.pressed" />
+      <Action Target="Interface;;Helios.FA18C;DCS F/A-18C" Name="AMPCD.push.OSB 14" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Base.DirectXController;F16 MFD 3" Name="Button 9.released" />
+      <Action Target="Interface;;Helios.FA18C;DCS F/A-18C" Name="AMPCD.release.OSB 14" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Base.DirectXController;F16 MFD 3" Name="Button 10.pressed" />
+      <Action Target="Interface;;Helios.FA18C;DCS F/A-18C" Name="AMPCD.push.OSB 15" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Base.DirectXController;F16 MFD 3" Name="Button 10.released" />
+      <Action Target="Interface;;Helios.FA18C;DCS F/A-18C" Name="AMPCD.release.OSB 15" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Base.DirectXController;F16 MFD 3" Name="Button 11.pressed" />
+      <Action Target="Interface;;Helios.FA18C;DCS F/A-18C" Name="AMPCD.push.OSB 16" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Base.DirectXController;F16 MFD 3" Name="Button 11.released" />
+      <Action Target="Interface;;Helios.FA18C;DCS F/A-18C" Name="AMPCD.release.OSB 16" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Base.DirectXController;F16 MFD 3" Name="Button 12.pressed" />
+      <Action Target="Interface;;Helios.FA18C;DCS F/A-18C" Name="AMPCD.push.OSB 17" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Base.DirectXController;F16 MFD 3" Name="Button 12.released" />
+      <Action Target="Interface;;Helios.FA18C;DCS F/A-18C" Name="AMPCD.release.OSB 17" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Base.DirectXController;F16 MFD 3" Name="Button 13.pressed" />
+      <Action Target="Interface;;Helios.FA18C;DCS F/A-18C" Name="AMPCD.push.OSB 18" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Base.DirectXController;F16 MFD 3" Name="Button 13.released" />
+      <Action Target="Interface;;Helios.FA18C;DCS F/A-18C" Name="AMPCD.release.OSB 18" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Base.DirectXController;F16 MFD 3" Name="Button 14.pressed" />
+      <Action Target="Interface;;Helios.FA18C;DCS F/A-18C" Name="AMPCD.push.OSB 19" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Base.DirectXController;F16 MFD 3" Name="Button 14.released" />
+      <Action Target="Interface;;Helios.FA18C;DCS F/A-18C" Name="AMPCD.release.OSB 19" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Base.DirectXController;F16 MFD 3" Name="Button 15.pressed" />
+      <Action Target="Interface;;Helios.FA18C;DCS F/A-18C" Name="AMPCD.push.OSB 20" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Base.DirectXController;F16 MFD 3" Name="Button 15.released" />
+      <Action Target="Interface;;Helios.FA18C;DCS F/A-18C" Name="AMPCD.release.OSB 20" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Base.DirectXController;F16 MFD 3" Name="Button 21.pressed" />
+      <Action Target="Interface;;Helios.FA18C;DCS F/A-18C" Name="AMPCD.set.AMPCD Symbology Control Switch UP" />
+      <StaticValue>1</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Base.DirectXController;F16 MFD 3" Name="Button 21.released" />
+      <Action Target="Interface;;Helios.FA18C;DCS F/A-18C" Name="AMPCD.release.AMPCD Symbology Control Switch UP" />
+      <StaticValue>2</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Base.DirectXController;F16 MFD 3" Name="Button 22.pressed" />
+      <Action Target="Interface;;Helios.FA18C;DCS F/A-18C" Name="AMPCD.set.AMPCD Symbology Control Switch UP" />
+      <StaticValue>3</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Base.DirectXController;F16 MFD 3" Name="Button 22.released" />
+      <Action Target="Interface;;Helios.FA18C;DCS F/A-18C" Name="AMPCD.release.AMPCD Symbology Control Switch UP" />
+      <StaticValue>2</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Base.DirectXController;F16 MFD 3" Name="Button 23.pressed" />
+      <Action Target="Interface;;Helios.FA18C;DCS F/A-18C" Name="AMPCD.set.AMPCD Contrast Control Switch UP" />
+      <StaticValue>1</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Base.DirectXController;F16 MFD 3" Name="Button 23.released" />
+      <Action Target="Interface;;Helios.FA18C;DCS F/A-18C" Name="AMPCD.release.AMPCD Contrast Control Switch UP" />
+      <StaticValue>2</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Base.DirectXController;F16 MFD 3" Name="Button 24.pressed" />
+      <Action Target="Interface;;Helios.FA18C;DCS F/A-18C" Name="AMPCD.set.AMPCD Contrast Control Switch UP" />
+      <StaticValue>3</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Base.DirectXController;F16 MFD 3" Name="Button 24.released" />
+      <Action Target="Interface;;Helios.FA18C;DCS F/A-18C" Name="AMPCD.release.AMPCD Contrast Control Switch UP" />
+      <StaticValue>2</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Base.DirectXController;F16 MFD 3" Name="Button 25.pressed" />
+      <Action Target="Interface;;Helios.FA18C;DCS F/A-18C" Name="AMPCD.set.AMPCD Gain Control Switch UP" />
+      <StaticValue>1</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Base.DirectXController;F16 MFD 3" Name="Button 25.released" />
+      <Action Target="Interface;;Helios.FA18C;DCS F/A-18C" Name="AMPCD.release.AMPCD Gain Control Switch UP" />
+      <StaticValue>2</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Base.DirectXController;F16 MFD 3" Name="Button 26.pressed" />
+      <Action Target="Interface;;Helios.FA18C;DCS F/A-18C" Name="AMPCD.set.AMPCD Gain Control Switch UP" />
+      <StaticValue>3</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Base.DirectXController;F16 MFD 3" Name="Button 26.released" />
+      <Action Target="Interface;;Helios.FA18C;DCS F/A-18C" Name="AMPCD.release.AMPCD Gain Control Switch UP" />
+      <StaticValue>2</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Base.DirectXController;F16 MFD 3" Name="Button 27.pressed" />
+      <Action Target="Interface;;Helios.FA18C;DCS F/A-18C" Name="AMPCD.set.AMPCD Night/Day Brightness Selector DAY" />
+      <StaticValue>1</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Base.DirectXController;F16 MFD 3" Name="Button 27.released" />
+      <Action Target="Interface;;Helios.FA18C;DCS F/A-18C" Name="AMPCD.release.AMPCD Night/Day Brightness Selector DAY" />
+      <StaticValue>2</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Base.DirectXController;F16 MFD 3" Name="Button 28.pressed" />
+      <Action Target="Interface;;Helios.FA18C;DCS F/A-18C" Name="AMPCD.set.AMPCD Night/Day Brightness Selector DAY" />
+      <StaticValue>3</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Base.DirectXController;F16 MFD 3" Name="Button 28.released" />
+      <Action Target="Interface;;Helios.FA18C;DCS F/A-18C" Name="AMPCD.release.AMPCD Night/Day Brightness Selector DAY" />
+      <StaticValue>2</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1.Panel Linx Portrait.Panel Video Controls.Black Level Knob;Helios.Base.Potentiometer;Black Level Knob" Name="value.changed" />
+      <Action Target="Interface;;Helios.FA18C;DCS F/A-18C" Name="Head-Up Display.set.Black Level Control Knob" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1.Panel Linx Portrait.Panel Video Controls.AOA Brightness Knob;Helios.Base.Potentiometer;AOA Brightness Knob" Name="value.changed" />
+      <Action Target="Interface;;Helios.FA18C;DCS F/A-18C" Name="Head-Up Display.set.AOA Indexer Control Knob" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1.Panel Linx Portrait.Panel Video Controls.Rej Switch;Helios.Base.ThreeWayToggleSwitch;Rej Switch" Name="position.changed" />
+      <Action Target="Interface;;Helios.FA18C;DCS F/A-18C" Name="Head-Up Display.set.HUD Symbology Reject Switch" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1.Panel Linx Portrait.Panel Video Controls.Altimeter Mode Switch;Helios.Base.ToggleSwitch;Altimeter Mode Switch" Name="position.changed" />
+      <Action Target="Interface;;Helios.FA18C;DCS F/A-18C" Name="Head-Up Display.set.Altitude Switch" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1.Panel Linx Portrait.Panel Video Controls.Video Switch;Helios.Base.ThreeWayToggleSwitch;Video Switch" Name="position.changed" />
+      <Action Target="Interface;;Helios.FA18C;DCS F/A-18C" Name="Head-Up Display.set.HUD Video Control Switch" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1.Panel Linx Portrait.Panel Video Controls.Alt Switch;Helios.Base.ToggleSwitch;Alt Switch" Name="position.changed" />
+      <Action Target="Interface;;Helios.FA18C;DCS F/A-18C" Name="Head-Up Display.set.HUD Symbology Brightness Selector Switch" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1.Panel Linx Portrait.Panel Video Controls.ATT Switch;Helios.Base.ThreeWayToggleSwitch;ATT Switch" Name="position.changed" />
+      <Action Target="Interface;;Helios.FA18C;DCS F/A-18C" Name="Head-Up Display.set.Attitude Selector Switch" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1.Panel Linx Portrait.Panel Video Controls.HUD Brightness;Helios.Base.Potentiometer;HUD Brightness" Name="value.changed" />
+      <Action Target="Interface;;Helios.FA18C;DCS F/A-18C" Name="Head-Up Display.set.HUD Symbology Brightness Control Knob" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1.Panel Linx Portrait.Panel Video Controls.Balance Knob;Helios.Base.Potentiometer;Balance Knob" Name="value.changed" />
+      <Action Target="Interface;;Helios.FA18C;DCS F/A-18C" Name="Head-Up Display.set.Balance Control Knob" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1.Panel Linx Portrait.Panel Video Controls.Toggle AMPCD Course;Helios.Base.ThreeWayToggleSwitch;Toggle AMPCD Course" Name="position.changed" />
+      <Action Target="Interface;;Helios.FA18C;DCS F/A-18C" Name="AMPCD.set.Course Set Switch" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1.Panel Linx Portrait.Panel Video Controls.Knob AMPCD Brightness;Helios.Base.Potentiometer;Knob AMPCD Brightness" Name="value.changed" />
+      <Action Target="Interface;;Helios.FA18C;DCS F/A-18C" Name="AMPCD.set.AMPCD Off/Brightness Control Knob" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1.Panel Linx Portrait.Panel Video Controls.Toggle AMPCD Heading;Helios.Base.ThreeWayToggleSwitch;Toggle AMPCD Heading" Name="position.changed" />
+      <Action Target="Interface;;Helios.FA18C;DCS F/A-18C" Name="AMPCD.set.Heading Set Switch" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 1.Panel Linx Portrait.Control Centre Button;Helios.Base.PushButton;Control Centre Button" Name="pushed" />
+      <Action Target="Interface;;Helios.Base.ProfileInterface;Profile" Name="show control center" />
+      <StaticValue />
+    </Binding>
+  </Bindings>
+</HeliosProfile>
