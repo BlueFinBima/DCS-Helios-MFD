@@ -29,14 +29,14 @@ is quite easy to open, and it you find that you're needing to use a little force
 This is not absolutely necessry, an "On The Go" OTG adaptor will work perfectly well.  Why I changed the connector was for two reasons.  Firstly, I wanted a shorter cable, and secondly the adaptor took up space.  I tried several options when I was experimenting, but in the end, I opted for the StarTech cable because it was long enough when cut in half, and I was also hoping to do two MFDs with a single cable.  The StarTech cable comes with one end marked "Host" and this is the end to use.  It might be possible to use the other end, but I have not tried this yet.  The reason why an OTG is necessary is because 
 the Micro USB connector has an ID pin, and this needs to be tied to GND in order to convince the tablet that it needs to be a host.  My StarTech cable has a 5th conductor (brown) which appears to be the "ID" pin.  Again, I have not investigated this yet, but it is possible that the green and white wires might need to be reversed if the non-host end is used.  These cables are very cheap so it should not be the ned of the world if you have to buy two.  I also think that there is the potential for cables from other sources to have the ID pin held low inside the
 connector which would mean that the cable would definitely only work if using the host end.  My MFDs did not have a connector for the cable inside the device, so to change the cable, you will need to be proficient at soldering, and have a reasonably small tip on the iron.  Also, be aware that at least in my MFD's Thrustmaster had used non-standard cable colours.  The MFD I changed seemed to be made in 2018, but the PCB desing with 2009.  It is possible that connections for other revisions of the PCB could have different configuration.  Check out the connections before heating up the iron ;-)
-![New Cable](images/New Cable.jpg)
+![New Cable](images/New_Cable.jpg)
 #### The new colours for the connections
 * Red		+5v	(square pad)
 * White		D-
 * Green		D+
 * Black		GND
 * Brown		ID
-![Original Cable Connections (white is square pad)](images/Original cable.jpg)
+![Original Cable Connections (white is square pad)](images/Original_Cable.jpg)
 ### Other Activities
 * Configure the tablet to have a static IP address. 
 * Create an account without a password to run Helios (it is a pain to type a password when the MFD is on the screen)
